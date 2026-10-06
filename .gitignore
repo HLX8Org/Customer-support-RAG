@@ -1,0 +1,24 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated application state and build artifacts
+var/
+build/
+dist/
+*.egg-info/
+
+# macOS metadata
+.DS_Store

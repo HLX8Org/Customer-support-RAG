@@ -1,0 +1,468 @@
+{
+  "spec_version": "0.2.0",
+  "status": "planned_not_implemented",
+  "requirements": {
+    "FR-01": {
+      "tests": [
+        "T-01",
+        "T-02",
+        "T-03"
+      ]
+    },
+    "FR-02": {
+      "tests": [
+        "T-04"
+      ]
+    },
+    "FR-03": {
+      "tests": [
+        "T-05",
+        "T-06"
+      ]
+    },
+    "FR-04": {
+      "tests": [
+        "T-07",
+        "T-08"
+      ]
+    },
+    "FR-05": {
+      "tests": [
+        "T-09",
+        "T-10"
+      ]
+    },
+    "FR-06": {
+      "tests": [
+        "T-11",
+        "T-12",
+        "T-13"
+      ]
+    },
+    "FR-07": {
+      "tests": [
+        "T-14",
+        "T-15"
+      ]
+    },
+    "FR-08": {
+      "tests": [
+        "T-16",
+        "T-17"
+      ]
+    },
+    "FR-09": {
+      "tests": [
+        "T-18",
+        "T-19",
+        "T-20"
+      ]
+    },
+    "FR-10": {
+      "tests": [
+        "T-21",
+        "T-22",
+        "T-23"
+      ]
+    },
+    "FR-11": {
+      "tests": [
+        "T-24",
+        "T-25"
+      ]
+    },
+    "FR-12": {
+      "tests": [
+        "T-26",
+        "T-27",
+        "T-28",
+        "T-29",
+        "T-30"
+      ]
+    },
+    "FR-13": {
+      "tests": [
+        "T-31",
+        "T-32"
+      ]
+    },
+    "FR-14": {
+      "tests": [
+        "T-33",
+        "T-34",
+        "T-35",
+        "T-36",
+        "T-37"
+      ]
+    },
+    "FR-15": {
+      "tests": [
+        "T-41",
+        "T-42",
+        "T-43"
+      ]
+    },
+    "FR-16": {
+      "tests": [
+        "T-38",
+        "T-39",
+        "T-40"
+      ]
+    }
+  },
+  "design_plans": [
+    {
+      "id": "DP-01",
+      "adr_id": "ADR-0001",
+      "adr_path": "../adr/0001-specification-and-test-first-delivery.md",
+      "status": "Accepted",
+      "requirements": [
+        "FR-01",
+        "FR-02",
+        "FR-03",
+        "FR-04",
+        "FR-05",
+        "FR-06",
+        "FR-07",
+        "FR-08",
+        "FR-09",
+        "FR-10",
+        "FR-11",
+        "FR-12",
+        "FR-13",
+        "FR-14",
+        "FR-15",
+        "FR-16"
+      ],
+      "tests": [
+        "T-01",
+        "T-02",
+        "T-03",
+        "T-04",
+        "T-05",
+        "T-06",
+        "T-07",
+        "T-08",
+        "T-09",
+        "T-10",
+        "T-11",
+        "T-12",
+        "T-13",
+        "T-14",
+        "T-15",
+        "T-16",
+        "T-17",
+        "T-18",
+        "T-19",
+        "T-20",
+        "T-21",
+        "T-22",
+        "T-23",
+        "T-24",
+        "T-25",
+        "T-26",
+        "T-27",
+        "T-28",
+        "T-29",
+        "T-30",
+        "T-31",
+        "T-32",
+        "T-33",
+        "T-34",
+        "T-35",
+        "T-36",
+        "T-37",
+        "T-38",
+        "T-39",
+        "T-40",
+        "T-41",
+        "T-42",
+        "T-43"
+      ]
+    },
+    {
+      "id": "DP-02",
+      "adr_id": "ADR-0002",
+      "adr_path": "../adr/0002-python-local-modular-boundaries.md",
+      "status": "Accepted",
+      "requirements": [
+        "FR-11",
+        "FR-15"
+      ],
+      "tests": [
+        "T-24",
+        "T-25",
+        "T-41",
+        "T-42",
+        "T-43"
+      ]
+    },
+    {
+      "id": "DP-03",
+      "adr_id": "ADR-0003",
+      "adr_path": "../adr/0003-source-provenance-and-synthetic-data.md",
+      "status": "Accepted",
+      "requirements": [
+        "FR-01",
+        "FR-02"
+      ],
+      "tests": [
+        "T-01",
+        "T-02",
+        "T-03",
+        "T-04"
+      ]
+    },
+    {
+      "id": "DP-04",
+      "adr_id": "ADR-0004",
+      "adr_path": "../adr/0004-server-enforced-access-and-policy-identity.md",
+      "status": "Accepted",
+      "requirements": [
+        "FR-06",
+        "FR-07"
+      ],
+      "tests": [
+        "T-11",
+        "T-12",
+        "T-13",
+        "T-14",
+        "T-15"
+      ]
+    },
+    {
+      "id": "DP-05",
+      "adr_id": "ADR-0005",
+      "adr_path": "../adr/0005-clause-chunks-and-linked-conditions.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-03",
+        "FR-04",
+        "FR-05"
+      ],
+      "tests": [
+        "T-05",
+        "T-06",
+        "T-07",
+        "T-08",
+        "T-09",
+        "T-10"
+      ]
+    },
+    {
+      "id": "DP-06",
+      "adr_id": "ADR-0006",
+      "adr_path": "../adr/0006-embedding-adapters-and-isolated-indexes.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-08",
+        "FR-09"
+      ],
+      "tests": [
+        "T-16",
+        "T-17",
+        "T-18",
+        "T-19",
+        "T-20"
+      ]
+    },
+    {
+      "id": "DP-07",
+      "adr_id": "ADR-0007",
+      "adr_path": "../adr/0007-scoped-evidence-retrieval.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-10"
+      ],
+      "tests": [
+        "T-21",
+        "T-22",
+        "T-23"
+      ]
+    },
+    {
+      "id": "DP-08",
+      "adr_id": "ADR-0008",
+      "adr_path": "../adr/0008-generation-provider-adapters.md",
+      "status": "Accepted",
+      "requirements": [
+        "FR-11"
+      ],
+      "tests": [
+        "T-24",
+        "T-25"
+      ]
+    },
+    {
+      "id": "DP-09",
+      "adr_id": "ADR-0009",
+      "adr_path": "../adr/0009-grounding-comparison-and-abstention.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-12",
+        "FR-13"
+      ],
+      "tests": [
+        "T-26",
+        "T-27",
+        "T-28",
+        "T-29",
+        "T-30",
+        "T-31",
+        "T-32"
+      ]
+    },
+    {
+      "id": "DP-10",
+      "adr_id": "ADR-0010",
+      "adr_path": "../adr/0010-local-support-queue.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-14"
+      ],
+      "tests": [
+        "T-33",
+        "T-34",
+        "T-35",
+        "T-36",
+        "T-37"
+      ]
+    },
+    {
+      "id": "DP-11",
+      "adr_id": "ADR-0011",
+      "adr_path": "../adr/0011-controlled-retrieval-and-answer-evaluation.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-16"
+      ],
+      "tests": [
+        "T-38",
+        "T-39",
+        "T-40"
+      ]
+    },
+    {
+      "id": "DP-12",
+      "adr_id": "ADR-0012",
+      "adr_path": "../adr/0012-local-record-storage-and-extension-path.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-06",
+        "FR-14",
+        "FR-15"
+      ],
+      "tests": [
+        "T-13",
+        "T-34",
+        "T-35",
+        "T-36",
+        "T-41",
+        "T-42",
+        "T-43"
+      ]
+    },
+    {
+      "id": "DP-13",
+      "adr_id": "ADR-0013",
+      "adr_path": "../adr/0013-concrete-mvp-technology-stack.md",
+      "status": "Proposed",
+      "requirements": [
+        "FR-01",
+        "FR-03",
+        "FR-06",
+        "FR-08",
+        "FR-09",
+        "FR-11",
+        "FR-14",
+        "FR-15",
+        "FR-16"
+      ],
+      "tests": [
+        "T-01",
+        "T-02",
+        "T-03",
+        "T-05",
+        "T-06",
+        "T-11",
+        "T-12",
+        "T-13",
+        "T-16",
+        "T-17",
+        "T-18",
+        "T-19",
+        "T-20",
+        "T-24",
+        "T-25",
+        "T-33",
+        "T-34",
+        "T-35",
+        "T-36",
+        "T-37",
+        "T-38",
+        "T-39",
+        "T-40",
+        "T-41",
+        "T-42",
+        "T-43"
+      ]
+    }
+  ],
+  "increments": [
+    {
+      "id": "P-01",
+      "design_plans": [
+        "DP-01",
+        "DP-02",
+        "DP-04",
+        "DP-12",
+        "DP-13"
+      ]
+    },
+    {
+      "id": "P-02",
+      "design_plans": [
+        "DP-03",
+        "DP-05"
+      ]
+    },
+    {
+      "id": "P-03",
+      "design_plans": [
+        "DP-06",
+        "DP-07"
+      ]
+    },
+    {
+      "id": "P-04",
+      "design_plans": [
+        "DP-08",
+        "DP-09"
+      ]
+    },
+    {
+      "id": "P-05",
+      "design_plans": [
+        "DP-02",
+        "DP-04",
+        "DP-10",
+        "DP-12"
+      ]
+    },
+    {
+      "id": "P-06",
+      "design_plans": [
+        "DP-03",
+        "DP-04"
+      ]
+    },
+    {
+      "id": "P-07",
+      "design_plans": [
+        "DP-06",
+        "DP-11"
+      ]
+    }
+  ],
+  "technical_design": "../technical-design.md"
+}

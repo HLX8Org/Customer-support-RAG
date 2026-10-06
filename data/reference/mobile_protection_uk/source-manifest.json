@@ -1,0 +1,83 @@
+{
+  "status": "candidate_reference_corpus",
+  "sources": [
+    {
+      "filename": "SCPlus_IPID_UK_1.pdf",
+      "product_id": "care_plus",
+      "document_type": "product_summary",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/uk/offer/samsung-care-plus/SCPlus_IPID_UK_1.pdf",
+      "discovery_url": "https://www.samsung.com/uk/offer/samsung-care-plus/",
+      "retrieved_on": "2026-10-06",
+      "jurisdiction": "United Kingdom",
+      "language": "en",
+      "access_class": "public_reference",
+      "pages": 2,
+      "bytes": 230382,
+      "sha256": "a5168c94fb8d990a717a550e721479f9e76bed75f40f4dcadd718a43ecea59ba",
+      "text_characters": 5008,
+      "version_labels": [],
+      "license_status": "Publicly downloadable reference document; open dataset license not verified",
+      "status": "candidate_learning_corpus_not_indexed"
+    },
+    {
+      "filename": "SCPlus_Terms_Conditions_UK_1.pdf",
+      "product_id": "care_plus",
+      "document_type": "policy_wording",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/uk/offer/samsung-care-plus/SCPlus_Terms_Conditions_UK_1.pdf",
+      "discovery_url": "https://www.samsung.com/uk/offer/samsung-care-plus/",
+      "retrieved_on": "2026-10-06",
+      "jurisdiction": "United Kingdom",
+      "language": "en",
+      "access_class": "public_reference",
+      "pages": 10,
+      "bytes": 319991,
+      "sha256": "03ff15ad5c65ad36f6569f4714846ee3a64dcf8607897df6c674fbb0fdccb08d",
+      "text_characters": 22561,
+      "version_labels": [
+        "Version: 5.12.2025",
+        "Symbol: UK_ SC_01"
+      ],
+      "license_status": "Publicly downloadable reference document; open dataset license not verified",
+      "status": "candidate_learning_corpus_not_indexed"
+    },
+    {
+      "filename": "SCPlus_Theft_and_Loss_IPID_UK_1.pdf",
+      "product_id": "care_plus_theft_loss",
+      "document_type": "product_summary",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/uk/offer/samsung-care-plus/SCPlus_Theft_and_Loss_IPID_UK_1.pdf",
+      "discovery_url": "https://www.samsung.com/uk/offer/samsung-care-plus/",
+      "retrieved_on": "2026-10-06",
+      "jurisdiction": "United Kingdom",
+      "language": "en",
+      "access_class": "public_reference",
+      "pages": 2,
+      "bytes": 240002,
+      "sha256": "56f499f96a28fbc86c7e527b5ead49a4e446cb35c17c317fecfe22aef5e9ccb0",
+      "text_characters": 5417,
+      "version_labels": [],
+      "license_status": "Publicly downloadable reference document; open dataset license not verified",
+      "status": "candidate_learning_corpus_not_indexed"
+    },
+    {
+      "filename": "SCPlus_Theft_and_Loss_Terms_Conditions_UK_1.pdf",
+      "product_id": "care_plus_theft_loss",
+      "document_type": "policy_wording",
+      "source_url": "https://images.samsung.com/is/content/samsung/assets/uk/offer/samsung-care-plus/SCPlus_Theft_and_Loss_Terms_Conditions_UK_1.pdf",
+      "discovery_url": "https://www.samsung.com/uk/offer/samsung-care-plus/",
+      "retrieved_on": "2026-10-06",
+      "jurisdiction": "United Kingdom",
+      "language": "en",
+      "access_class": "public_reference",
+      "pages": 11,
+      "bytes": 285733,
+      "sha256": "e76e494838fb914aa18ed3530c79804160fa149f4515ba44119fb82a1b19e240",
+      "text_characters": 26446,
+      "version_labels": [
+        "Version: 5.12.2025",
+        "Symbol: UK_SCTL_01"
+      ],
+      "license_status": "Publicly downloadable reference document; open dataset license not verified",
+      "status": "candidate_learning_corpus_not_indexed"
+    }
+  ]
+}
